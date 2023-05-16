@@ -14,7 +14,7 @@
 *Здесь текст описания кейса*
 
 
-## Подготовка рабочего пространства (направлно на пользователей Windows)
+## Подготовка рабочего пространства (направлено на пользователей Windows)
 
 Для начала работы с проектом необходимо скачать [GitBash](https://gitforwindows.org/). После скаивания и установки GitBash, нужно скачать [Anaconda](https://www.anaconda.com/download#downloads): Linux, 64-Bit (x86) Installer (860 MB). Затем скаченный файл *Anaconda3-2023.03-1-Linux-x86_64.sh* необходимо перенести в предпологаемую рабочую папку. В этой папке нужно кликнуть правой кнопкой мыши по свободному пространству, в появившемся окно нежать *Git Bash Here*. В появившемся терминале необходимо прописать следующую команду: bash Anaconda3-2023.03-1-Linux-x86_64.sh
 
@@ -26,9 +26,29 @@
 2) conda create -n StableDiffusion python=3.9
 3) conda create -n shap python=3.9
 4) git clone https://github.com/keoni02032/MouseHub.git
+5) echo ". ${PWD}/conda.sh" >> ~/.bashrc
+6) echo ". '${PWD}'/conda.sh" >> ~/.bashrc
 
+Теперь нужно прописать *exit* и снова открыть рабочий терминал GitBash.
 
+## Настройка окружения для модели Kandinsky-2
 
+1) conda activate kandinsky
+2) cd Kandinsky-2
+3) pip install "git+https://github.com/ai-forever/Kandinsky-2.git"
+
+## Настройка окружения для модели Stable Diffusion
+
+1) conda activate StableDiffusion
+2) cd finetuned_diffusion
+3) pip install -r requirements.txt
+4) pip install gradio
+
+## Настройка окружения для модели shap-e
+
+1) conda activate shap
+2) cd shap-e
+3) pip install -e .
 
 ## База знаний:
 
