@@ -9,10 +9,12 @@ model = get_kandinsky2('cuda', task_type='text2img', model_version='2.1', use_fl
 if not os.path.isdir('save_images'):
     os.mkdir('save_images')
 
+N = 10
+prompt = "Mickey Mouse with broken proportions in black and white style, 4k photo"
 
-for i in rnage(len(100)):
+for i in rnage(N):
 	images = model.generate_text2img(
-	    "Mickey Mouse with broken proportions in black and white style, 4k photo", 
+	    prompt, 
 	    num_steps=100,
 	    batch_size=1, 
 	    guidance_scale=4,

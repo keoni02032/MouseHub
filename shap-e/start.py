@@ -17,6 +17,7 @@ model = load_model('text300M', device=device)
 diffusion = diffusion_from_config(load_config('diffusion'))
 
 batch_size = 5
+size_image = 256
 guidance_scale = 15.0
 prompt = "Mickey Mouse" # disney character Mickey Mouse with broken proportions in black and white style  "a shark that looks like a banana"
 
@@ -37,10 +38,10 @@ latents = sample_latents(
 )
 
 render_mode = 'nerf' # you can change this to 'stf'
-size = 256 # this is the size of the renders; higher values take longer to render. 384
+size = size_image # this is the size of the renders; higher values take longer to render. 384
 
-width = 256
-height = 256
+width = size_image
+height = size_image
 im1 = Image.new("RGBA", (width, height), (255, 0, 0))
 
 cameras = create_pan_cameras(size, device)
