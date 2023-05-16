@@ -1,13 +1,15 @@
-# Shap-E
+## Запуск генерации изображений
 
-This is the official code and model release for [Shap-E: Generating Conditional 3D Implicit Functions](https://arxiv.org/abs/2305.02463).
+После выполнения инструкции по устанвке и запуску из [приложения](https://github.com/keoni02032/MouseHub/blob/main/application.md). Код запускается следующим образом:
 
- * See [Usage](#usage) for guidance on how to use this repository.
- * See [Samples](#samples) for examples of what our text-conditional model can generate.
+```python
+python3 start.py
+```
 
-# Samples
+Внутри файла strt.sh на строке 22 в ковычках сформулирован запрос к нейронной сети, который можно изменить на свой. Также на 19 строке после занка равно стоит цифра, она означает количество моделей кторое сгенерирует сеть в итоге, на 20 строке есть возможность поменять размер полаемых на выходе моделей.
 
-Here are some highlighted samples from our text-conditional model. For random samples on selected prompts, see [samples.md](samples.md).
+После окончания выполнения программы реузультат сохраняется в папку *save_images*, если папка не создана самостоятельно, то программа создаст ее за вас.
+
 
 <table>
     <tbody>
@@ -61,13 +63,3 @@ Here are some highlighted samples from our text-conditional model. For random sa
         </tr>
     </tbody>
 <table>
-
-# Usage
-
-Install with `pip install -e .`.
-
-To get started with examples, see the following notebooks:
-
-* [sample_text_to_3d.ipynb](shap_e/examples/sample_text_to_3d.ipynb) - sample a 3D model, conditioned on a text prompt.
-* [sample_image_to_3d.ipynb](shap_e/examples/sample_image_to_3d.ipynb) - sample a 3D model, conditioned on a synthetic view image. To get the best result, you should remove background from the input image.
-* [encode_model.ipynb](shap_e/examples/encode_model.ipynb) - loads a 3D model or a trimesh, creates a batch of multiview renders and a point cloud, encodes them into a latent, and renders it back. For this to work, install Blender version 3.3.1 or higher, and set the environment variable `BLENDER_PATH` to the path of the Blender executable.
