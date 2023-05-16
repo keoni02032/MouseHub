@@ -5,9 +5,9 @@
 ## Состав команды:
 
 - *Team Lead* — Мчедлишвили Давид
-- *Art Design* — 
+- *Art Design* — Сафонникова Анна
 - *ML* — Симонов Сергей
-- *3D* — 
+- *3D* — Коротина Дарья
 
 ## Задание:
 
@@ -25,7 +25,9 @@
 1) conda create -n kandinsky python=3.9
 2) conda create -n StableDiffusion python=3.9
 3) conda create -n shap python=3.9
-4) git clone 
+4) git clone https://github.com/keoni02032/MouseHub.git
+
+
 
 
 ## База знаний:
