@@ -22,16 +22,16 @@
 - Сделать раскадровку с сохранением стиля Уолта Диснея.
 - Собрать артбук по персонажу.
 
-## Подготовка рабочего пространства
+### Подготовка рабочего пространства
 
 Перед началом работы с разработанным кодом необходимо выполнить инструкцию по [ссылке](https://github.com/keoni02032/MouseHub/blob/main/application.md).
 
-## Phygital+ [application for use](https://github.com/keoni02032/MouseHub/blob/main/phygital_plus.md)
+### Phygital+ [application for use](https://github.com/keoni02032/MouseHub/blob/main/phygital_plus.md)
 
-## Sber Kandinsky [application for use](https://github.com/keoni02032/MouseHub/blob/main/Sber_Kandinsky.md)
+### Sber Kandinsky [application for use](https://github.com/keoni02032/MouseHub/blob/main/Sber_Kandinsky.md)
 
-## Kandinsky via source code [application for use](https://github.com/keoni02032/MouseHub/tree/main/Kandinsky-2)
+### Kandinsky via source code [application for use](https://github.com/keoni02032/MouseHub/tree/main/Kandinsky-2)
 
-## Stable Diffusion [application for use](https://github.com/keoni02032/MouseHub/tree/main/finetuned_diffusion)
+### Stable Diffusion [application for use](https://github.com/keoni02032/MouseHub/tree/main/finetuned_diffusion)
 
-## shap-e [application for use](https://github.com/keoni02032/MouseHub/tree/main/shap-e)
+### shap-e [application for use](https://github.com/keoni02032/MouseHub/tree/main/shap-e)
