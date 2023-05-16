@@ -10,3 +10,8 @@ python3 start.py
 
 После окончания выполнения программы реузультат сохраняется в папку *save_images*, если папка не создана самостоятельно, то программа создаст ее за вас.
 
+## Примеры сгенерированных изображений
+
+![kandinsky-download-1684265057495](https://github.com/keoni02032/MouseHub/assets/51419607/ffaa6111-19aa-4369-802c-3bcec6fa6fa0)
+
+![kandinsky-download-1684265019019](https://github.com/keoni02032/MouseHub/assets/51419607/4246df04-168d-4b49-91af-8aaca19e65ea)
