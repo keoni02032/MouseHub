@@ -13,6 +13,11 @@
 
 *Здесь текст описания кейса*
 
+
+## Подготовка рабочего пространства (направлно на пользователей Windows)
+
+Для начала работы с данным репозиторием необходимо скачать [GitBash](https://gitforwindows.org/)
+
 ## База знаний:
 
 > https://docs.google.com/document/d/1RFuw6DvJfM1tS86Yyls1FB1y4Mz7dT-gZFAxCvrppxE/edit?usp=sharing
