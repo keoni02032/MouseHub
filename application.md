@@ -22,6 +22,7 @@
 1) conda activate kandinsky
 2) cd Kandinsky-2
 3) pip install "git+https://github.com/ai-forever/Kandinsky-2.git"
+4) pip install git+https://github.com/openai/CLIP.git
 
 ## Настройка окружения для модели Stable Diffusion
 
