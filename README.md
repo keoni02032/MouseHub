@@ -61,7 +61,3 @@
 3) pip install -e .
 
 В случае использования впервые нужно прописывать все команды. Для дальнейшего использования нужно писать только первые два пункта для каждой модели.
-
-## База знаний:
-
-> https://docs.google.com/document/d/1RFuw6DvJfM1tS86Yyls1FB1y4Mz7dT-gZFAxCvrppxE/edit?usp=sharing
