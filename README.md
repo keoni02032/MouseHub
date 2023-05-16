@@ -4,12 +4,12 @@
 ---
 ## Состав команды:
 
-- *Team Lead* — Мчедлишвили Давид
-- *Art Design* — Сафонникова Анна
-- *ML* — Симонов Сергей
-- *3D* — Коротина Дарья
+- *Team Lead, testing models* — Мчедлишвили Давид
+- *Art Design, testing online-services* — Сафонникова Анна
+- *ML, testing models and online-services* — Симонов Сергей
+- *3D, testing models and online-services* — Коротина Дарья
 
-## Задание:
+## Поставленные задачи:
 
 *Здесь текст описания кейса*
 
@@ -33,6 +33,8 @@
 
 ## Настройка окружения для модели Kandinsky-2
 
+Перед началом работы с каждым из приведенных ниже инструментов необходимо сначала прописать соответствующие ему команды:
+
 1) conda activate kandinsky
 2) cd Kandinsky-2
 3) pip install "git+https://github.com/ai-forever/Kandinsky-2.git"
@@ -49,6 +51,8 @@
 1) conda activate shap
 2) cd shap-e
 3) pip install -e .
+
+В случае использования впервые нужно прописывать все команды. Для дальнейшего использования нужно писать только первые два пункта для каждой модели.
 
 ## База знаний:
 
