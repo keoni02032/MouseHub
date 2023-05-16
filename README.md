@@ -7,7 +7,7 @@
 - *Team Lead, testing models* — Мчедлишвили Давид
 - *Art Design, testing online-services* — Сафонникова Анна
 - *ML, testing models and online-services* — Симонов Сергей
-- *3D, testing models and online-services* — Коротина Дарья
+- *3D, Art Design, testing models and online-services* — Коротина Дарья
 
 ## Поставленные задачи:
 
