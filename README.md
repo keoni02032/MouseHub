@@ -35,3 +35,7 @@
 ### Stable Diffusion [application for use](https://github.com/keoni02032/MouseHub/tree/main/finetuned_diffusion)
 
 ### shap-e [application for use](https://github.com/keoni02032/MouseHub/tree/main/shap-e)
+
+## Результат
+
+По [ссылке](https://github.com/keoni02032/MouseHub/blob/main/history/MouseHub.pdf) можно посмотреть артбут, историю персонажа и раскадровку.
